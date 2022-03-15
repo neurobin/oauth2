@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '88acac5c1b2edceb31aa05654de1c12522833fbd',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '88acac5c1b2edceb31aa05654de1c12522833fbd',
             'dev_requirement' => false,
         ),
         'firebase/php-jwt' => array(
@@ -62,6 +62,15 @@
             'install_path' => __DIR__ . '/../league/oauth2-client',
             'aliases' => array(),
             'reference' => '2334c249907190c132364f5dae0287ab8666aa19',
+            'dev_requirement' => false,
+        ),
+        'league/oauth2-google' => array(
+            'pretty_version' => '4.0.0',
+            'version' => '4.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/oauth2-google',
+            'aliases' => array(),
+            'reference' => 'db6d8ad67cdd7d014a1e5dd5c204a319a966de86',
             'dev_requirement' => false,
         ),
         'paragonie/random_compat' => array(
